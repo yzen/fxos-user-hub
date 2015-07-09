@@ -25,3 +25,18 @@
   font-size: 1.2rem;
   font-weight: 400;
 }
+
+.contrast-lower {
+  filter: contrast(50%);
+  font-weight: 100;
+}
+
+.contrast-higher {
+  filter: contrast(130%);
+  font-weight: 700;
+}
+
+.contrast-highest {
+  filter: contrast(160%);
+  font-weight: 900;
+}

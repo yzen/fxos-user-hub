@@ -1,0 +1,20 @@
+{
+  "name": "user-hub",
+  "description": "User hub for user preferences",
+  "developer": {
+    "name": "Yura Zenevich"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yzen/fxos-user-hub.git"
+  },
+  "license": "MPL-2.0",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-zip": "*"
+  }
+}
