@@ -1,0 +1,32 @@
+{
+  "name": "User Hub",
+  "description": "User hub for user preferences",
+  "developer": {
+    "name": "Yura Zenevich"
+  },
+  "package_path": "package.zip",
+  "role": "addon",
+  "type": "certified",
+  "customizations": [{
+    "filter": "system.gaiamobile.org",
+    "css": ["style/user-hub.css"],
+    "scripts": ["js/user-hub.js"]
+  }],
+  "permissions": {
+    "themeable":{},
+    "systemXHR":{},
+    "settings": { "access": "readwrite" }
+  },
+  "activities": {
+    "configure": {
+      "filters": {
+        "target": "user"
+       },
+      "href": "index.html",
+      "disposition": "window"
+    }
+  },
+  "icons": {
+    "128": "icons/user.png"
+  }
+}

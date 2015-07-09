@@ -1,0 +1,27 @@
+.active {
+  border: medium solid #00CAF2;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.round-button {
+  width: 3rem;
+  min-width: 0 !important;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  flex-flow: row nowrap;
+  font-size: 1.2rem;
+  font-weight: 400;
+}

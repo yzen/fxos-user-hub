@@ -1,0 +1,17 @@
+.user-hub-button {
+  width: 7rem;
+  z-index: 99999999;
+  pointer-events: all;
+  background: transparent;
+  border: none;
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.user-hub-button:active {
+  color: #00CAF2;
+}

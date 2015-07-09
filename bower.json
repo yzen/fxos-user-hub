@@ -1,0 +1,19 @@
+{
+  "name": "fxos-user-hub",
+  "description": "User hub for user preferences",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "componenets"
+  ],
+  "dependencies": {
+    "base": "gaia-components/base",
+    "gaia-theme": "gaia-components/gaia-theme",
+    "gaia-header" : "gaia-components/gaia-header",
+    "gaia-button": "gaia-components/gaia-button",
+    "gaia-icons": "gaia-components/gaia-icons",
+    "gaia-fonts": "gaia-components/gaia-fonts",
+    "gaia-switch": "gaia-components/gaia-switch",
+    "gaia-sub-header": "gaia-components/gaia-sub-header"
+  }
+}
